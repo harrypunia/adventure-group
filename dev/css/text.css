@@ -3,8 +3,15 @@
     line-height: 1.5;
     letter-spacing: .12;
     word-spacing: 1;
+    font-family: 'Hind Madurai', sans-serif;
+
 }
 
 .text-size__regular {
     font-size: 1.8em;
+}
+
+.text-size__heading {
+    font-size: 5em;
+    font-weight: 700;
 }
