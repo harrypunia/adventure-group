@@ -14,12 +14,11 @@ function initMap() {
     infoWindow = new google.maps.InfoWindow;
     // Try HTML5 geolocation.
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function (position) {
+        navigator.geolocation.getCurrentPosition(position => {
             var pos = {
                 lat: position.coords.latitude,
                 lng: position.coords.longitude
             };
-
             infoWindow.setPosition(pos);
             infoWindow.setContent('Location found.');
             infoWindow.open(map);
