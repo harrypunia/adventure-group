@@ -3,7 +3,7 @@
     height: 0;
 }
 
-.content {
+#map {
    width: 750px;
     height: 1334px;
     background: yellow;
