@@ -1,9 +1,12 @@
 wrapper {
+    will-change: 'transform';
     position: absolute;
     left: 0;
     width: 400%;
     height: 100%;
     background: grey;
+    transition: transform .2s ease-in-out;
+    cursor: pointer;
 }
 
 wrapper * {
