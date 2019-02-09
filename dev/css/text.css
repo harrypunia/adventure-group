@@ -1,17 +1,24 @@
 .define-text {
     color: #151515;
     line-height: 1.5;
-    letter-spacing: .12;
-    word-spacing: 1;
-    font-family: 'Hind Madurai', sans-serif;
 
+    font-family: 'hind_madurai', serif;
 }
 
 .text-size__regular {
-    font-size: 1.8em;
+    font-size: 18px;
+    letter-spacing: .12px;
 }
 
-.text-size__heading {
+.text-size__large {
     font-size: 5em;
-    font-weight: 700;
+    letter-spacing: .12em;
+}
+
+.text--light {
+    font-weight: 200
+}
+
+.text--bold {
+    font-weight: 800
 }
