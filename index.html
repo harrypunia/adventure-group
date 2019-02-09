@@ -5,16 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adventure Club</title>
-    <link rel="stylesheet" href="dev/css/main.css">
+    <link rel="stylesheet" href="dev/css/global.css">
+    <link rel="stylesheet" href="dev/css/reset.css">
+    <link rel="stylesheet" href="dev/css/map.css">
 </head>
 
 <body>
-    <div class="content">
-        <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCFNzG3BYpRiKCxmoUY4DUzejwQxz59Sj0&q=Space+Needle,Seattle+WA" allowfullscreen></iframe>
-
-        <div class="nav"></div>
-        <div id="map"></div>
-    </div>
+    <app>
+       <main>
+           <div id="map"></div>
+       </main>
+       <nav></nav>
+    </app>
+    
     <script src="dev/js/google_api.js"></script>
     <script src="dev/js/app.js"></script>
     <script>let app = new App(); app.init();</script>
