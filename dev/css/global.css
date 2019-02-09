@@ -1,7 +1,15 @@
-.wrapper {
-    position: relative;
-    float: left;
-    width: 300%;
+wrapper {
+    position: absolute;
+    left: 0;
+    width: 400%;
     height: 100%;
     background: grey;
+}
+
+wrapper * {
+    position: relative;
+    display: block;
+    float: left;
+    width: 25%;
+    height: 100%;
 }

@@ -11,36 +11,34 @@
     <link rel="stylesheet" href="dev/css/main.css">
     <link rel="stylesheet" href="dev/css/memories.css">
     <link rel="stylesheet" href="dev/css/settings.css">
+    <link rel="stylesheet" href="dev/css/nav.css">
 </head>
 
 <body>
     <app>
-        <div class="wrapper">
+        <wrapper>
+            <memories>
+            </memories>
             <main>
                 <div id="map"></div>
             </main>
-            <memories>
-            </memories>
-            <adventure>
+            <activity>
             
-            </adventure>
+            </activity>
             <settings>
             
             </settings>
-        </div>
+        </wrapper>
         <nav>
-            <div class="nav-button nav-button__main"></div>
-            <div class="nav-button nav-button__memories"></div>
-            <div class="nav-button nav-button__adventure"></div>
+            <div class="nav-buttons nav-button__main" onclick="openPage('memories')"></div>
+            <div class="nav-buttons nav-button__memories" onclick="openPage('main')"></div>
+            <div class="nav-buttons nav-button__adventure" onclick="openPage('activity')"></div>
+            <div class="nav-buttons nav-button__adventure" onclick="openPage('settings')"></div>
         </nav>
     </app>
 
     <script src="dev/js/google_api.js"></script>
     <script src="dev/js/app.js"></script>
-    <script>
-        let app = new App();
-        app.init();
-    </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFNzG3BYpRiKCxmoUY4DUzejwQxz59Sj0&callback=initMap"></script>
 </body>
 
