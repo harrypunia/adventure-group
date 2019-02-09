@@ -4,3 +4,7 @@
     letter-spacing: .12;
     word-spacing: 1;
 }
+
+.text-size__regular {
+    font-size: 1.8em;
+}

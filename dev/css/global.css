@@ -1,5 +1,5 @@
-#map {
-   width: 750px;
-    height: 1334px;
-    background: yellow;
+.wrapper {
+    max-width: none;
+    width: auto;
+    height: 100%;
 }
