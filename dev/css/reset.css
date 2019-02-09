@@ -1,9 +1,9 @@
 * {
     box-sizing: border-box;
-/*    max-width: 100%;*/
+    /*    max-width: 100%;*/
 }
 
-body, 
+body,
 html {
     font-size: 62.5%;
 }
@@ -14,4 +14,9 @@ body {
     margin: 0;
     padding: 0;
     background: white;
+}
+
+h1,
+p {
+    margin: 0;
 }
