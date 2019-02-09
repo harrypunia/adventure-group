@@ -1,15 +1,15 @@
 * {
     margin: 0;
     height: 0;
-    width: 750px;
-    height: 1334px;
 }
 
 .content {
-    width: 100%;
-    height: 100%;
+   width: 750px;
+    height: 1334px;
     background: yellow;
 }
+
+
 
 .nav {
     width: 100%;
