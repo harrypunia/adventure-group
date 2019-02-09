@@ -1,3 +1,33 @@
 activity {
     background: blue;
+    overflow-y: scroll;
+}
+
+.activity__header {
+    width: 100%;
+    height: 20%;
+    background: yellow;
+}
+
+.activity__content {
+    width: 100%;
+}
+
+.activity__ind {
+    background: red;
+    width: 96%;
+    height: 20%;
+    margin: 2% 2% 0 2%;
+    padding: 5%;
+}
+
+.activity__heading {
+    width: 100%;
+    float: left;
+}
+
+.activity__body {
+    width: 100%;
+    float: left;
+
 }
