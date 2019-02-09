@@ -1,11 +1,14 @@
 * {
     box-sizing: border-box;
-    max-width: 100%;
+/*    max-width: 100%;*/
 }
 
-body, html {
+body, 
+html {
     font-size: 62.5%;
-    max-width: 500px;
+}
+
+body {
     width: 100vw;
     height: 100vh;
     margin: 0;

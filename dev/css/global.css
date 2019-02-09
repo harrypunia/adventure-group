@@ -1,5 +1,7 @@
 .wrapper {
-    max-width: none;
-    width: auto;
+    position: relative;
+    float: left;
+    width: 300%;
     height: 100%;
+    background: grey;
 }
