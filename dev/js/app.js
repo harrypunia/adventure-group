@@ -6,6 +6,5 @@ const openPage = what => {
 const scroll = (to) => {
     const activityContent = document.getElementsByClassName('activity__content')[0];
     if(to == 'up') {
-            
     }
 }

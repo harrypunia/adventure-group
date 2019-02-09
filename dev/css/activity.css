@@ -10,7 +10,7 @@ activity img {
     margin: 40% auto 0 43%;
 }
 
-#activity__arrow_down {
+.activity__arrow_down {
     transform: rotate(90deg);
 }
 
