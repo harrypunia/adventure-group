@@ -1,49 +1,49 @@
 @font-face {
     font-family: 'hind_madurai';
-    src: url('/assets/fonts/hindmadurai-bold-webfont.woff2') format('woff2'),
-        url('/assets/fonts/hindmadurai-bold-webfont.woff') format('woff'),
-        url('/assets/fonts/hindmadurai-bold-webfont.ttf') format('truetype'),
-        url('/assets/fonts/hindmadurai-bold-webfont.svg#hind_maduraibold') format('svg');
+    src: url('../../assets/fonts/hindmadurai-bold-webfont.woff2') format('woff2'),
+        url('../../assets/fonts/hindmadurai-bold-webfont.woff') format('woff'),
+        url('../../assets/fonts/hindmadurai-bold-webfont.ttf') format('truetype'),
+        url('../../assets/fonts/hindmadurai-bold-webfont.svg#hind_maduraibold') format('svg');
     font-weight: 800;
 
 }
 
 @font-face {
     font-family: 'hind_madurai';
-    src: url('/assets/fonts/hindmadurai-light-webfont.woff2') format('woff2'),
-        url('/assets/fonts/hindmadurai-light-webfont.woff') format('woff'),
-        url('/assets/fonts/hindmadurai-light-webfont.ttf') format('truetype'),
-        url('/assets/fonts/hindmadurai-light-webfont.svg#hind_madurailight') format('svg');
+    src: url('../../assets/fonts/hindmadurai-light-webfont.woff2') format('woff2'),
+        url('../../assets/fonts/hindmadurai-light-webfont.woff') format('woff'),
+        url('../../assets/fonts/hindmadurai-light-webfont.ttf') format('truetype'),
+        url('../../assets/fonts/hindmadurai-light-webfont.svg#hind_madurailight') format('svg');
     font-weight: 200;
 
 }
 
 @font-face {
     font-family: 'hind_madurai';
-    src: url('/assets/fonts/hindmadurai-medium-webfont.woff2') format('woff2'),
-        url('/assets/fonts/hindmadurai-medium-webfont.woff') format('woff'),
-        url('/assets/fonts/hindmadurai-medium-webfont.ttf') format('truetype'),
-        url('/assets/fonts/hindmadurai-medium-webfont.svg#hind_maduraimedium') format('svg');
+    src: url('../../assets/fonts/hindmadurai-medium-webfont.woff2') format('woff2'),
+        url('../../assets/fonts/hindmadurai-medium-webfont.woff') format('woff'),
+        url('../../assets/fonts/hindmadurai-medium-webfont.ttf') format('truetype'),
+        url('../../assets/fonts/hindmadurai-medium-webfont.svg#hind_maduraimedium') format('svg');
     font-weight: 300;
 
 }
 
 @font-face {
     font-family: 'hind_madurai';
-    src: url('/assets/fonts/hindmadurai-regular-webfont.woff2') format('woff2'),
-        url('/assets/fonts/hindmadurai-regular-webfont.woff') format('woff'),
-        url('/assets/fonts/hindmadurai-regular-webfont.ttf') format('truetype'),
-        url('/assets/fonts/hindmadurai-regular-webfont.svg#hind_madurairegular') format('svg');
+    src: url('../../assets/fonts/hindmadurai-regular-webfont.woff2') format('woff2'),
+        url('../../assets/fonts/hindmadurai-regular-webfont.woff') format('woff'),
+        url('../../assets/fonts/hindmadurai-regular-webfont.ttf') format('truetype'),
+        url('../../assets/fonts/hindmadurai-regular-webfont.svg#hind_madurairegular') format('svg');
     font-weight: 400;
 
 }
 
 @font-face {
     font-family: 'hind_madurai';
-    src: url('/assets/fonts/hindmadurai-semibold-webfont.woff2') format('woff2'),
-        url('/assets/fonts/hindmadurai-semibold-webfont.woff') format('woff'),
-        url('/assets/fonts/hindmadurai-semibold-webfont.ttf') format('truetype'),
-        url('/assets/fonts/hindmadurai-semibold-webfont.svg#hind_maduraisemibold') format('svg');
+    src: url('../../assets/fonts/hindmadurai-semibold-webfont.woff2') format('woff2'),
+        url('../../assets/fonts/hindmadurai-semibold-webfont.woff') format('woff'),
+        url('../../assets/fonts/hindmadurai-semibold-webfont.ttf') format('truetype'),
+        url('../../assets/fonts/hindmadurai-semibold-webfont.svg#hind_maduraisemibold') format('svg');
     font-weight: 600;
 
 }
