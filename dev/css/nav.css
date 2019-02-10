@@ -27,5 +27,19 @@ nav {
 
 .nav-buttons:hover {
     background: #1a2667;
+}
+
+.nav-buttons:active {
+    background: #1a2667;
+}
+
+.active {
+    background: #eee;
+    color: #09134B;
+}
+
+.active:hover {
+    background: #eee;
+    color: #09134B;
 
 }
