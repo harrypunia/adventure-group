@@ -43,8 +43,8 @@ main {
 }
 
 .main__activity img {
-    height: 50px;
+    height: 40px;
     position: absolute;
-    right: 5%;
+    right: 2%;
     bottom: 10%;
 }
