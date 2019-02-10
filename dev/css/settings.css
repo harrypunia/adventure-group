@@ -3,6 +3,10 @@ settings {
     font-family: 'hind_madurai', serif;
 }
 
+.settings__header {
+    background: url(/assets/memories__header.svg) no-repeat;
+}
+
 .settings__profileImg {
     position: relative;
     width: 200px;
