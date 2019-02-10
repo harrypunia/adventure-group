@@ -18,9 +18,7 @@ memories .activity__arrow_down {
 .memories__header {
     position: absolute;
     background: url("../../assets/memories__header.svg") no-repeat;
-    /*    background-position: 49% 32%;*/
-    width: 100%;
-    height: 35%;
+    background-position: 49% 32%;
 }
 
 .memories__button {
@@ -41,6 +39,7 @@ memories .activity__arrow_down {
     font-size: 25px;
     text-align: center;
     height: 30px;
+    color: white;
 
 }
 
