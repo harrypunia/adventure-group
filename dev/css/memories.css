@@ -19,6 +19,25 @@ memories .activity__arrow_down {
     position: absolute;
     background: url("/assets/activity__header.png") no-repeat;
     background-position: 49% 32%;
+    width: 100%;
+}
+
+.memories__button {
+    width: 50%;
+    margin-top: 35.5%;
+    height: auto;
+    padding: 10px;
+    border: 1px #000 solid;
+
+
+}
+
+.memories__button h1 {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    height: 30px;
+
 }
 
 .memories__ind {
