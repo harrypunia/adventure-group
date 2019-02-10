@@ -5,8 +5,7 @@ const openPage = what => {
 
 const content = document.getElementsByClassName('content__wrapper')[0];
 const activity = document.getElementsByClassName('activity__content')[0];
-const inc = 150;
-const scrollContent = to => {
+const scrollContent = (to, inc) => {
     const margin = parseInt(content.style.marginTop);
     if (to == 'up') {
         if (margin > -inc) {
