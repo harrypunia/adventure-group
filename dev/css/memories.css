@@ -93,3 +93,11 @@ memories .activity__arrow_down {
     height: auto;
     margin: 0;
 }
+
+.memories__button h2 {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    height: 30px;
+
+}
