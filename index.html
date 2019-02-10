@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="dev/css/nav.css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Hind+Madurai');
+
     </style>
 
 </head>
@@ -35,8 +36,15 @@
                 <div class="memories__button define-text">
                     <h1>Where I've Been</h1>
                 </div>
+
+                <div class="memories__content-2">
+                    <img src="/assets/memories__map.png" alt="">
+                </div>
+
                 <img src="assets/activity__arrow.svg" alt="" onclick="scrollContent('memories__wrapper', 'memories__content', 'up')">
-                <div class="memories__content template__content" style="visibility: hidden">
+
+                <div class="memories__content template__content" style="">
+
                     <div class="memories__wrapper template__wrapper" style="margin-top: 0px">
                         <div class="template__ind memories__ind">
                             <h1>ACTIVITY</h1>
@@ -55,12 +63,10 @@
                             <p>Put the info about the activity in here.</p>
                         </div>
                     </div>
-                </div>
-                <div class="memories__content-2">
-
 
                 </div>
                 <img src="assets/activity__arrow.svg" class="activity__arrow_down" onclick="scrollContent('memories__wrapper', 'memories__content', 'down')">
+
             </memories>
             <main>
                 <div class="main__activity" onclick="expandActivity(1)">

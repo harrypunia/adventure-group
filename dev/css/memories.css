@@ -7,7 +7,7 @@ memories img {
     width: 5vh;
     height: 5vh;
     position: relative;
-    margin: 22vh auto 0 43%;
+    margin: 1vh auto 0 43%;
 }
 
 memories .activity__arrow_down {
@@ -70,4 +70,25 @@ memories .activity__arrow_down {
     height: auto;
     letter-spacing: 0.1px;
 
+}
+
+.memories__content-2 {
+    width: 100%;
+    height: 70%;
+}
+
+
+/*
+.memories__content-2 img {
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    margin: 2% 4% 2% 4%;
+}
+*/
+
+.memories__content-2 img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
