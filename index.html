@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adventure Club</title>
     <link rel="stylesheet" href="dev/css/fonts.css">
+    <link rel="stylesheet" href="dev/css/template.css">
     <link rel="stylesheet" href="dev/css/text.css">
     <link rel="stylesheet" href="dev/css/reset.css">
     <link rel="stylesheet" href="dev/css/app.css">
@@ -17,7 +18,6 @@
     <link rel="stylesheet" href="dev/css/nav.css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Hind+Madurai');
-
     </style>
 
 </head>
@@ -26,6 +26,10 @@
     <app>
         <wrapper>
             <memories>
+                <div class="memories__header template__header">
+                    <h1>Memories</h1>
+                </div>
+                <div class="memories__content template__content"></div>
             </memories>
             <main>
                 <div class="main__activity" onclick="expandActivity(1)">
@@ -39,11 +43,11 @@
                 </div>
             </main>
             <activity>
-                <div class="activity__header">
+                <div class="activity__header template__header">
                     <h1>Activities</h1>
                 </div>
                 <img src="assets/activity__arrow.svg" alt="" onclick="scrollContent('up', 200)">
-                <div class="activity__content">
+                <div class="activity__content template__content">
                     <div class="content__wrapper" style="margin-top: 0px">
                         <div id="content__ind-1" class="activity__ind">
                             <h1>ACTIVITY</h1>
