@@ -2,6 +2,7 @@
 
 let map
 let infoWindow;
+let myMarker;
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
@@ -144,6 +145,13 @@ function initMap() {
                 lat: position.coords.latitude,
                 lng: position.coords.longitude
             };
+            var markerImage = {
+                url: '../assets/user-loc.svg',
+                size: new google.maps.Size(71, 71),
+                origin: new google.maps.Point(0, 0),
+                anchor: new google.maps.Point(17, 34),
+                scaledSize: new google.maps.Size(25, 25)
+            };
             var markerPos1 = {
                 lat: pos.lat + Math.random() / 100,
                 lng: pos.lng + Math.random() / 100
@@ -158,22 +166,29 @@ function initMap() {
             }
             var marker1 = new google.maps.Marker({
                 position: markerPos1,
-                icon: 'assets/marker.png',
+                icon: markerImage,
                 map: map
             });
             var marker2 = new google.maps.Marker({
                 position: markerPos2,
-                icon: 'assets/marker.png',
+                icon: markerImage,
                 map: map
             });
             var marker3 = new google.maps.Marker({
                 position: markerPos3,
-                icon: 'assets/marker.png',
+                icon: markerImage,
                 map: map
             });
-            var myMarker = new google.maps.Marker({
+            var myMarkerImage = {
+                url: '../assets/user-loc.svg',
+                size: new google.maps.Size(71, 71),
+                origin: new google.maps.Point(0, 0),
+                anchor: new google.maps.Point(17, 34),
+                scaledSize: new google.maps.Size(25, 25)
+            };
+            myMarker = new google.maps.Marker({
                 position: pos,
-                icon: 'assets/user-loc.svg',
+                icon: myMarkerImage,
                 map: map
             })
             infoWindow.setPosition(pos);
