@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="dev/css/nav.css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Hind+Madurai');
+
     </style>
 
 </head>
@@ -34,31 +35,33 @@
                 <div class="activity__header">
                     <h1>Activities</h1>
                 </div>
-                <img src="assets/activity__arrow.svg" alt="">
+                <img src="assets/activity__arrow.svg" alt="" onclick="scrollContent('up')">
                 <div class="activity__content">
-                    <div class="activity__ind activity__ind_1">
-                        <h1>ACTIVITY</h1>
-                        <p>Put the info about the activity in here.</p>
-                    </div>
-                    <div class="activity__ind activity__ind_2">
-                        <h1>ACTIVITY</h1>
-                        <p>Put the info about the activity in here.</p>
-                    </div>
-                    <div class="activity__ind activity__ind_3">
-                        <h1>ACTIVITY</h1>
-                        <p>Put the info about the activity in here.</p>
+                    <div class="content__wrapper" style="margin-top: 0px">
+                        <div id="content__ind-1" class="activity__ind">
+                            <h1>ACTIVITY</h1>
+                            <p>Put the info about the activity in here.</p>
+                        </div>
+                        <div class="activity__ind">
+                            <h1>ACTIVITY</h1>
+                            <p>Put the info about the activity in here.</p>
+                        </div>
+                        <div class="activity__ind">
+                            <h1>ACTIVITY</h1>
+                            <p>Put the info about the activity in here.</p>
 
-                    </div>
-                    <div class="activity__ind activity__ind_4">
-                        <h1>ACTIVITY</h1>
-                        <p>Put the info about the activity in here.</p>
-                    </div>
-                    <div class="activity__ind activity__ind_5">
-                        <h1>ACTIVITY</h1>
-                        <p>Put the info about the activity in here.</p>
+                        </div>
+                        <div class="activity__ind">
+                            <h1>ACTIVITY</h1>
+                            <p>Put the info about the activity in here.</p>
+                        </div>
+                        <div class="activity__ind">
+                            <h1>ACTIVITY</h1>
+                            <p>Put the info about the activity in here.</p>
+                        </div>
                     </div>
                 </div>
-                <img src="assets/activity__arrow.svg activity__arrow_down">
+                <img src="assets/activity__arrow.svg" class="activity__arrow_down" onclick="scrollContent('down')">
             </activity>
             <settings>
 

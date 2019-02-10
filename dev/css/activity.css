@@ -1,13 +1,17 @@
 activity {
     background: #fafafa;
-    overflow-y: hidden;
 }
 
 activity img {
-    width: 50px;
+    width: 5vh;
+    height: 5vh;
     position: relative;
-    height: auto;
-    margin: 40% auto 0 43%;
+    margin: 22vh auto 0 43%;
+}
+
+activity .activity__arrow_down {
+    margin-top: 5%;
+    transform: rotate(180deg);
 }
 
 .activity__arrow_down {
@@ -16,11 +20,11 @@ activity img {
 
 
 .activity__header {
+    position: fixed;
     width: 100%;
     height: 20%;
     background: url("/assets/activity__header.png");
     background-position: center 32%;
-    position: fixed;
     z-index: 999;
 }
 
@@ -38,15 +42,22 @@ activity img {
 }
 
 
-
 .activity__content {
+    position: relative;
     width: 100%;
-    padding-top: 5%;
     height: 52%;
     overflow: scroll;
 }
 
+.content__wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    transition: margin .2s ease-in-out;
+}
+
 .activity__ind {
+    position: relative;
     background: #f2f2f2;
     width: 92%;
     height: auto;
