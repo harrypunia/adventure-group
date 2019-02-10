@@ -18,7 +18,7 @@ settings {
     border-radius: 100%;
 }
 
-.settings__account {
+.settings__button {
     width: 92%;
     height: auto;
     font-size: 30px;
@@ -26,21 +26,7 @@ settings {
     background: #e9e9e9;
     color: #000;
     float: left;
-    margin: 0 4% 0 4%;
-    padding: 30px 20px;
-    text-align: center;
-    border-radius: 20px;
-}
-
-.settings__accessibility {
-    width: 92%;
-    height: auto;
-    font-size: 30px;
-    font-weight: 600;
-    background: #e9e9e9;
-    color: #000;
-    float: left;
-    margin: 5% 4% 0 4%;
+    margin: 0 4% 4% 4%;
     padding: 30px 20px;
     text-align: center;
     border-radius: 20px;
@@ -48,15 +34,8 @@ settings {
 
 .settings__SOS {
     position: absolute;
-    right: 0;
-    height: auto;
-    font-size: 30px;
-    font-weight: 600;
-    background: red;
-    color: #fff;
-    float: left;
-    margin: 5% 4% 0 4%;
-    padding: 10px 10px;
-    text-align: center;
-    border-radius: 20px;
+    bottom: 100px;
+    border-radius: 100px;
+    color: white;
+    background: #f23131;
 }
