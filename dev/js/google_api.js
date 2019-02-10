@@ -158,16 +158,24 @@ function initMap() {
             }
             var marker1 = new google.maps.Marker({
                 position: markerPos1,
+                icon: 'assets/marker.png',
                 map: map
             });
             var marker2 = new google.maps.Marker({
                 position: markerPos2,
+                icon: 'assets/marker.png',
                 map: map
             });
             var marker3 = new google.maps.Marker({
                 position: markerPos3,
+                icon: 'assets/marker.png',
                 map: map
             });
+            var myMarker = new google.maps.Marker({
+                position: pos,
+                icon: 'assets/user-loc.svg',
+                map: map
+            })
             infoWindow.setPosition(pos);
             infoWindow.open(map);
             google.maps.event.trigger(map, 'resize');

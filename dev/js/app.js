@@ -57,3 +57,14 @@ const expandActivity = which => {
         viewActivity.getElementsByTagName('h1')[0].innerHTML = activities[which].topic;
     }
 }
+
+const memoryAdventure = document.getElementsByClassName('memories__content-2')[0];
+const memoryList = document.getElementsByClassName('memories__content')[0];
+const memoryBtns = document.getElementsByClassName('memories__button');
+const toggleMemoriesTo = (which, to) => {
+    for(let i = 0; i < memoryBtns.length; i++) {
+        memoryBtns[i].removeAttribute('open');
+    }
+    which.setAttribute('open', '');
+    to === 'adventures' ? (memoryAdventure.style.display = 'block', memoryList.style.display = 'none') : (memoryAdventure.style.display = 'none', memoryList.style.display = 'block'); 
+}
