@@ -29,10 +29,10 @@
                 <div class="memories__header template__header">
                     <h1>Memories</h1>
                 </div>
-                <div class="memories__button define-text">
+                <div open class="memories__button define-text" onclick="toggleMemoriesTo(this, 'adventures')">
                     <h1>My Adventures</h1>
                 </div>
-                <div class="memories__button define-text">
+                <div class="memories__button define-text" onclick="toggleMemoriesTo(this, 'places')">
                     <h1>Where I've Been</h1>
                 </div>
 
@@ -41,9 +41,7 @@
                 </div>
 
                 <img src="assets/activity__arrow.svg" alt="" onclick="scrollContent('memories__wrapper', 'memories__content', 'up')">
-
                 <div class="memories__content template__content" style="">
-
                     <div class="memories__wrapper template__wrapper" style="margin-top: 0px">
                         <div class="template__ind memories__ind">
                             <h1>ACTIVITY</h1>
