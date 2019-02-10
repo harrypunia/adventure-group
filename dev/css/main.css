@@ -2,7 +2,6 @@ main {
     background: red;
 }
 
-
 #map {
     width: 100%;
     height: 100vh;
@@ -11,8 +10,8 @@ main {
 .main__activity {
     background: #fafafa;
     width: 92%;
-    margin: 0 4%;
-    height: 30%;
+    margin: 4% 4%;
+    height: auto;
     position: absolute;
     bottom: 9%;
     z-index: 999;
@@ -20,7 +19,7 @@ main {
     letter-spacing: .12em;
     font-family: 'hind_madurai', serif;
     border-radius: 10px;
-    padding: 5%;
+    padding: 20px;
     padding-left: 7%;
 }
 
@@ -31,7 +30,6 @@ main {
     height: auto;
     font-size: 50px;
     font-weight: 800;
-
 }
 
 .main__activity p {
@@ -39,15 +37,27 @@ main {
     font-size: 24px;
     height: auto;
     letter-spacing: 0.1px;
-
 }
 
 .main__activity img {
-    height: 40px;
     position: absolute;
-    right: 2%;
-    bottom: 10%;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: center center;
+    height: 80px;
+    position: absolute;
 }
 
+.main__activity[open] img {
+    transform: rotate(90deg);
+}
 
-#map img {}
+.main__compass {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+}

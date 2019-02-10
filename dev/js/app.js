@@ -1,6 +1,6 @@
 const allLinks = document.getElementsByClassName('nav-buttons');
 const openPage = (which, what) => {
-    for(let i = 0; i < allLinks.length; i++) {
+    for (let i = 0; i < allLinks.length; i++) {
         allLinks[i].classList.remove('active');
     }
     which.classList.add('active');
@@ -20,11 +20,39 @@ const scrollContent = (to, inc) => {
             content.style.marginTop = val + 'px';
         }
     } else {
-        if(margin <= activity.offsetHeight - content.offsetHeight + inc) {
-            content.style.marginTop = activity.offsetHeight  - content.offsetHeight + 'px';
+        if (margin <= activity.offsetHeight - content.offsetHeight + inc) {
+            content.style.marginTop = activity.offsetHeight - content.offsetHeight + 'px';
         } else {
             const val = JSON.stringify(margin - inc);
             content.style.marginTop = val + 'px';
         }
+    }
+}
+
+
+const activities = {
+    1: {
+        topic: 'The old post office',
+        des: 'lorem ipsum is cliche'
+    },
+    2: {
+        topic: 'Lions Valley',
+        des: 'lorem ipsum is cliche'
+    },
+    3: {
+        topic: 'Memorial Park',
+        des: 'lorem ipsum is cliche'
+    }
+}
+const viewActivity = document.getElementsByClassName('main__activity')[0];
+const expandActivity = which => {
+    if (viewActivity.hasAttribute('open')) {
+        viewActivity.getElementsByTagName('p')[0].innerHTML = '';
+        viewActivity.getElementsByTagName('h1')[0].innerHTML = 'Activity';
+        viewActivity.removeAttribute('open')
+    } else {
+        viewActivity.setAttribute('open', '');
+        viewActivity.getElementsByTagName('p')[0].innerHTML = activities[which].des;
+        viewActivity.getElementsByTagName('h1')[0].innerHTML = activities[which].topic;
     }
 }
