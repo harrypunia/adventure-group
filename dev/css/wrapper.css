@@ -11,6 +11,7 @@ wrapper {
 
 wrapper * {
     position: relative;
+    float: left;
     display: block;
     float: left;
     width: 25%;
