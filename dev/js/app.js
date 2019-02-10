@@ -1,4 +1,9 @@
-const openPage = what => {
+const allLinks = document.getElementsByClassName('nav-buttons');
+const openPage = (which, what) => {
+    for(let i = 0; i < allLinks.length; i++) {
+        allLinks[i].classList.remove('active');
+    }
+    which.classList.add('active');
     const wrapper = document.getElementsByTagName('wrapper')[0];
     what == 'memories' ? wrapper.style.transform = 'translateX(0)' : what == 'main' ? wrapper.style.transform = 'translateX(-25%)' : what == 'activity' ? wrapper.style.transform = 'translateX(-50%)' : wrapper.style.transform = 'translateX(-75%)';
 }
