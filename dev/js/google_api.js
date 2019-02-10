@@ -10,6 +10,7 @@ function initMap() {
             lng: 150.644
         },
         zoom: 18,
+        disableDefaultUI: true,
         styles: [
             {
                 elementType: 'geometry',
@@ -143,17 +144,33 @@ function initMap() {
                 lat: position.coords.latitude,
                 lng: position.coords.longitude
             };
-            var markerPos = {
+            var markerPos1 = {
                 lat: pos.lat + Math.random() / 100,
                 lng: pos.lng + Math.random() / 100
             }
-            var marker = new google.maps.Marker({
-                position: markerPos,
-                map: map,
-                title: 'new box!'
+            var markerPos2 = {
+                lat: pos.lat + Math.random() / 100,
+                lng: pos.lng + Math.random() / 100
+            }
+            var markerPos3 = {
+                lat: pos.lat + Math.random() / 100,
+                lng: pos.lng + Math.random() / 100
+            }
+            var marker1 = new google.maps.Marker({
+                position: markerPos1,
+                map: map
+            });
+            var marker2 = new google.maps.Marker({
+                position: markerPos2,
+                map: map
+            });
+            var marker3 = new google.maps.Marker({
+                position: markerPos3,
+                map: map
             });
             infoWindow.setPosition(pos);
             infoWindow.open(map);
+            google.maps.event.trigger(map, 'resize');
             map.setCenter(pos);
         }, function () {
             handleLocationError(true, infoWindow, map.getCenter());
