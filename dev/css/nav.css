@@ -21,4 +21,11 @@ nav {
     color: white;
     cursor: pointer;
     text-align: center;
+    border-right: 1px #5c70e0 solid;
+    padding: 16px 25px;
+}
+
+.nav-buttons:hover {
+    background: #1a2667;
+
 }
