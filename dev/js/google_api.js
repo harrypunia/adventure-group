@@ -9,10 +9,9 @@ function initMap() {
             lat: -34.397,
             lng: 150.644
         },
-        zoom: 6
+        zoom: 15
     });
     infoWindow = new google.maps.InfoWindow;
-    // Try HTML5 geolocation.
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(position => {
             var pos = {
@@ -26,7 +25,6 @@ function initMap() {
             handleLocationError(true, infoWindow, map.getCenter());
         });
     } else {
-        // Browser doesn't support Geolocation
         handleLocationError(false, infoWindow, map.getCenter());
     }
 }
