@@ -146,11 +146,11 @@ function initMap() {
                 lng: position.coords.longitude
             };
             var markerImage = {
-                url: '../assets/user-loc.svg',
-                size: new google.maps.Size(71, 71),
+                url: '../assets/marker.svg',
+                size: new google.maps.Size(50, 50),
                 origin: new google.maps.Point(0, 0),
                 anchor: new google.maps.Point(17, 34),
-                scaledSize: new google.maps.Size(25, 25)
+                scaledSize: new google.maps.Size(50, 50)
             };
             var markerPos1 = {
                 lat: pos.lat + Math.random() / 100,

@@ -21,5 +21,4 @@ activity .activity__arrow_down {
 .activity__header {
     position: absolute;
     background: url("../../assets/activities__header.svg") no-repeat;
-
 }
