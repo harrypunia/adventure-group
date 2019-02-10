@@ -1,3 +1,46 @@
 settings {
-    background: maroon;
+    background: #fafafa;
+    font-family: 'hind_madurai', serif;
+}
+
+.settings__profileImg {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 10% 30%;
+    background: #e9e9e9;
+    /*    background-position: 49% 32%;*/
+    z-index: 999;
+    border-radius: 100%;
+}
+
+
+
+.settings__account {
+    width: 92%;
+    height: auto;
+    font-size: 30px;
+    font-weight: 600;
+    background: #e9e9e9;
+    color: #000;
+    float: left;
+    margin: 0 4% 0 4%;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.settings__accessibility {
+    width: 92%;
+    height: auto;
+    font-size: 30px;
+    font-weight: 600;
+    background: #e9e9e9;
+    color: #000;
+    float: left;
+    margin: 5% 4% 0 4%;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 20px;
 }
