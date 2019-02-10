@@ -8,9 +8,10 @@ const openPage = (which, what) => {
     what == 'memories' ? wrapper.style.transform = 'translateX(0)' : what == 'main' ? wrapper.style.transform = 'translateX(-25%)' : what == 'activity' ? wrapper.style.transform = 'translateX(-50%)' : wrapper.style.transform = 'translateX(-75%)';
 }
 
-const content = document.getElementsByClassName('content__wrapper')[0];
-const activity = document.getElementsByClassName('activity__content')[0];
-const scrollContent = (to, inc) => {
+const scrollContent = (parent, scroll, to) => {
+    const inc = 150;
+    const content = document.getElementsByClassName(parent)[0];
+    const activity = document.getElementsByClassName(scroll)[0];
     const margin = parseInt(content.style.marginTop);
     if (to == 'up') {
         if (margin > -inc) {

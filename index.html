@@ -29,7 +29,29 @@
                 <div class="memories__header template__header">
                     <h1>Memories</h1>
                 </div>
-                <div class="memories__content template__content"></div>
+                <img src="assets/activity__arrow.svg" alt="" onclick="scrollContent('memories__wrapper', 'memories__content', 'up')">
+                <div class="memories__content template__content" style="visibility: hidden">
+                    <div class="memories__wrapper template__wrapper" style="margin-top: 0px">
+                        <div class="template__ind memories__ind">
+                            <h1>ACTIVITY</h1>
+                            <p>Put the info about the activity in here.</p>
+                        </div>
+                        <div class="template__ind memories__ind">
+                            <h1>ACTIVITY</h1>
+                            <p>Put the info about the activity in here.</p>
+                        </div>
+                        <div class="template__ind memories__ind">
+                            <h1>ACTIVITY</h1>
+                            <p>Put the info about the activity in here.</p>
+                        </div>
+                        <div class="template__ind memories__ind">
+                            <h1>ACTIVITY</h1>
+                            <p>Put the info about the activity in here.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="memories__content-2"></div>
+                <img src="assets/activity__arrow.svg" class="activity__arrow_down" onclick="scrollContent('memories__wrapper', 'memories__content', 'down')">
             </memories>
             <main>
                 <div class="main__activity" onclick="expandActivity(1)">
@@ -46,33 +68,33 @@
                 <div class="activity__header template__header">
                     <h1>Activities</h1>
                 </div>
-                <img src="assets/activity__arrow.svg" alt="" onclick="scrollContent('up', 200)">
+                <img src="assets/activity__arrow.svg" alt="" onclick="scrollContent('content__wrapper', 'activity__content', 'up')">
                 <div class="activity__content template__content">
-                    <div class="content__wrapper" style="margin-top: 0px">
-                        <div id="content__ind-1" class="activity__ind">
+                    <div class="content__wrapper template__wrapper" style="margin-top: 0px">
+                        <div id="content__ind-1" class="template__ind activity__ind">
                             <h1>ACTIVITY</h1>
                             <p>Put the info about the activity in here.</p>
                         </div>
-                        <div class="activity__ind">
+                        <div class="template__ind activity__ind">
                             <h1>ACTIVITY</h1>
                             <p>Put the info about the activity in here.</p>
                         </div>
-                        <div class="activity__ind">
+                        <div class="template__ind activity__ind">
                             <h1>ACTIVITY</h1>
                             <p>Put the info about the activity in here.</p>
 
                         </div>
-                        <div class="activity__ind">
+                        <div class="template__ind activity__ind">
                             <h1>ACTIVITY</h1>
                             <p>Put the info about the activity in here.</p>
                         </div>
-                        <div class="activity__ind">
+                        <div class="template__ind activity__ind">
                             <h1>ACTIVITY</h1>
                             <p>Put the info about the activity in here.</p>
                         </div>
                     </div>
                 </div>
-                <img src="assets/activity__arrow.svg" class="activity__arrow_down" onclick="scrollContent('down', 200)">
+                <img src="assets/activity__arrow.svg" class="activity__arrow_down" onclick="scrollContent('content__wrapper', 'activity__content', 'down')">
             </activity>
             <settings>
                 <div class="settings__profileImg"></div>

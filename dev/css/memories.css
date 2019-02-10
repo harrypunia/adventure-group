@@ -2,7 +2,51 @@ memories {
     background: white;
 }
 
+memories img {
+    width: 5vh;
+    height: 5vh;
+    position: relative;
+    margin: 22vh auto 0 43%;
+}
+
+memories .activity__arrow_down {
+    margin-top: 5%;
+    transform: rotate(180deg);
+}
+
 .memories__header {
     background: url("/assets/activity__header.png");
     background-position: 49% 32%;
+}
+
+.memories__ind {
+    position: relative;
+    background: #f2f2f2;
+    width: 92%;
+    height: auto;
+    margin: 4% 4% 0 4%;
+    padding: 5%;
+    color: #151515;
+    line-height: 1.5;
+    letter-spacing: .12em;
+    font-family: 'hind_madurai', serif;
+    border-radius: 10px;
+}
+
+.memories__ind h1 {
+    width: 100%;
+    float: left;
+    height: auto;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.memories__ind p {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    height: auto;
+    letter-spacing: 0.1px;
+
 }
