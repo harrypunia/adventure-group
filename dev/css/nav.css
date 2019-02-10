@@ -6,23 +6,22 @@ nav {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 60px;
-    background: #09134B;
+    height: 80px;
+    background: #242b50;
 }
 
 .nav-buttons {
-    margin: auto;
-    width: auto;
-    height: auto;
-    font-size: 18px;
-    line-height: 1.5;
+    width: 25%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 80px;
+    font-weight: 600;
+    text-align: center;
     letter-spacing: .12em;
     font-family: 'hind_madurai', serif;
     color: white;
     cursor: pointer;
-    text-align: center;
     border-right: 1px #5c70e0 solid;
-    padding: 16px 25px;
 }
 
 .nav-buttons:hover {
